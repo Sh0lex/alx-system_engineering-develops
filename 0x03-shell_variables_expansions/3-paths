@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $| export PATH=$PATH:../ | find . -type d | wc -l 
+PATH=$PATH: | echo $PATH |  find . -type d | wc -l 
